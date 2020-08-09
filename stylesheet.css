@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@-webkit-keyframes under {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes under {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.profile {
+  padding-top: 50px;
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  text-align: center;
+  background-color: #e6e6e6;
+  margin-left: -20px;
+}
+
+.profile i {
+  -webkit-animation: fadeIn 0.2s ease 0.3s 1 normal;
+          animation: fadeIn 0.2s ease 0.3s 1 normal;
+}
+
+.profile .mail {
+  padding-top: 30px;
+}
+
+.profile .mail i {
+  font-size: 24px;
+}
+
+.profile .mail p {
+  font-size: 14px;
+}
+
+.profile p {
+  color: #4d4d4d;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 20px 0px;
+}
+
+.works {
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 80%;
+  position: relative;
+  left: 300px;
+  color: #4d4d4d;
+  background-color: #fcfcfc;
+}
+
+.works video {
+  background-color: #e6e6e6;
+}
+
+.works #title {
+  border-bottom: 1px solid;
+  margin-bottom: 50px;
+  width: 80%;
+  -webkit-animation-name: under;
+          animation-name: under;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+.works .video-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.works .box-wrapper {
+  margin: 0px 50px 50px 0px;
+}
+
+.works video {
+  width: 420px;
+  height: 300px;
+}
+
+.works a {
+  padding-left: 10px;
+  color: #4d4d4d;
+}
+/*# sourceMappingURL=stylesheet.css.map */
