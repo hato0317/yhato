@@ -124,4 +124,14 @@
   padding-left: 10px;
   color: #4d4d4d;
 }
+@media screen and (max-width: 500px) {
+    /* 320pxまでの幅の場合に適応される */
+        .profile {
+            display: none;
+        }
+        .works{
+            left: 0;
+            padding:0px 10px;
+        }
+    }
 /*# sourceMappingURL=stylesheet.css.map */
